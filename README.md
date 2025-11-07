@@ -16,7 +16,7 @@ A command line program that lets the user sync data between a Google Sheet and a
 ### Example spreadsheet
 ![example spreadsheet](https://github.com/user-attachments/assets/b2a595a7-a3a7-49bc-80f4-181b190e7986)
 
-### Example of command line usage 
+### Example of run dialog box usage 
 ![example of command line usage](https://github.com/user-attachments/assets/8a89868f-38d3-46d8-a38a-1b6e487b6ffa)
 
 ### Content of the terminal after choosing "help"
