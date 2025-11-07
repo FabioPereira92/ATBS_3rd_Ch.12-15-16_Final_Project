@@ -63,7 +63,7 @@ and adds a line to the sync_log table"""
 
 def summary():
     """This function prints to the console a summary of how many records the database items
-table has and the timestamp and direction of the last sync"""
+table has, how many syncs have been made and the timestamp of the last push and last pull"""
     if os.path.exists(databaseName):
         conn = sqlite3.connect(databaseName, isolation_level=None)
         sync_logRows = conn.execute('SELECT * FROM sync_log').fetchall()
@@ -101,7 +101,7 @@ def helper():
     print('init-db - Initializes the database')
     print('pull - Updates the database with the contents of the spreadsheet')
     print('push - Updates the spreadsheet with the contents of the database')
-    print('summary - Prints a summary of the last sync to the console')
+    print('summary - Prints a summary to the console')
     
 def main():
     """This function is the main function of the program and calls the other fucntions based
