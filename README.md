@@ -13,18 +13,17 @@ A command line program that lets the user sync data between a Google Sheet and a
 2. Run in terminal.
 
 ## Example Usage
-### Example text file
-![example text file](https://github.com/user-attachments/assets/f3da1ce2-baff-4509-b215-aa665d01a0c3)
-### Content of one of the scanned URLs 
-![content of one of the scanned URLs](https://github.com/user-attachments/assets/893c6af2-e7f1-4063-8c25-00467a5c924b)
-### Content of the generated priceTrackerFolder
-![content of the generated priceTrackerFolder](https://github.com/user-attachments/assets/a2fff273-ecb5-4022-9781-851f8373eb47)
-### Content of one of the sheets of the generated excel file
-![content of one of the sheets of the generated excel file](https://github.com/user-attachments/assets/41f180ef-add3-4eef-a398-5e2e0a893da4)
-### Content of the generated logsTracker1 file
-![content of the generated logsTracker1 file](https://github.com/user-attachments/assets/641cae06-de29-475c-9cdd-0d2a0ae4db3b)
-### Final summary in the console
-![final summary in the console](https://github.com/user-attachments/assets/6de2bcfb-6015-4377-bf07-02e2145a4ebe)
+### Example spreadsheet
+![example spreadsheet](https://github.com/user-attachments/assets/b2a595a7-a3a7-49bc-80f4-181b190e7986)
+
+### Example of command line usage 
+![example of command line usage](https://github.com/user-attachments/assets/8a89868f-38d3-46d8-a38a-1b6e487b6ffa)
+
+### Content of the terminal after choosing "help"
+![content of the terminal after choosing "help"](https://github.com/user-attachments/assets/289c4daa-836b-450d-9be9-1a4f1e220cfc)
+
+### Content of the terminal after choosing "summary"
+![content of the terminal after choosing summary](https://github.com/user-attachments/assets/937a69b6-e4cd-45a1-a811-1430aa47e8ad)
 
 ## Tech Stack
 - Python 3.13
