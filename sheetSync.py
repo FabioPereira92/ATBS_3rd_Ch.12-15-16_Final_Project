@@ -20,8 +20,8 @@ def init_db():
     conn = sqlite3.connect(databaseName, isolation_level=None)
     conn.execute('CREATE TABLE IF NOT EXISTS items (item_Name TEXT, quantity INTEGER,' +
                  ' price_€ REAL, in_stock TEXT, last_updated TEXT) STRICT')
-    conn.execute('CREATE TABLE sync_log (timestamp TEXT, direction TEXT, row_count' +
-                 ' INTEGER) STRICT')
+    conn.execute('CREATE TABLE IF NOT EXISTS sync_log (timestamp TEXT, direction TEXT,' +
+                 ' row_count INTEGER) STRICT')
 
 def pull_db():
     """This function updates the database items table with the contents of the spreadsheet
@@ -87,7 +87,7 @@ table has, how many syncs have been made and the timestamp of the last push and 
                 lastPushTime = pushes[-1][0]
                 print(f'Last push time: {lastPushTime}')
             else:
-                print('There haven\'t been any pushs yet')
+                print('There haven\'t been any pushes yet')
             bext.fg('reset')
             bext.bg('reset')
         else:
