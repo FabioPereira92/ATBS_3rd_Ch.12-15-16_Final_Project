@@ -22,6 +22,12 @@ A command line program that lets the user sync data between a Google Sheet and a
 ### Content of the terminal after choosing "help"
 ![content of the terminal after choosing "help"](https://github.com/user-attachments/assets/289c4daa-836b-450d-9be9-1a4f1e220cfc)
 
+### Content of the table "items" in the database
+![content of the table "items" in the database](https://github.com/user-attachments/assets/a28cff80-f8ec-4ab7-b2b0-81254cd06ec3)
+
+### Content of the table "sync_log" in the database
+![content of the table "sync_log" in the database](https://github.com/user-attachments/assets/33ba3316-3136-4280-b989-9af6a9a3bdfa)
+
 ### Content of the terminal after choosing "summary"
 ![content of the terminal after choosing summary](https://github.com/user-attachments/assets/937a69b6-e4cd-45a1-a811-1430aa47e8ad)
 
