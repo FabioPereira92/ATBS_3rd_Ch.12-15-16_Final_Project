@@ -33,7 +33,8 @@ A command line program that lets the user sync data between a Google Sheet and a
 
 ## Tech Stack
 - Python 3.13
-- Standard library only (sys, ezsheets, sqlite3, os, bext, datetime)
+- Standard library: sys, sqlite3, os, datetime
+- Third-party libraries: ezsheets, bext
 
 ## License
 MIT
